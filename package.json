@@ -1,0 +1,22 @@
+{
+  "name": "cypress-todo-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-prod": "npx cypress run --e2e",
+    "test-report":"npx cypress run --record --key 31b7f639-44ad-4bec-9aff-8afef265a26d"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "cypress": "^15.17.0",
+    "playwright-webkit": "^1.60.0"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^10.4.0"
+  }
+}
