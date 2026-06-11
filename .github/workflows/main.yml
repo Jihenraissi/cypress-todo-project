@@ -16,7 +16,6 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v7
         with:
-          browser: chrome
           record: true
           parallel: true
         env:
